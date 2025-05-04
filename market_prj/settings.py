@@ -157,3 +157,4 @@ with open('market_prj/vk.json', 'r') as f:
 
 SOCIAL_AUTH_VK_OAUTH2_KEY = VK['SOCIAL_AUTH_VK_OAUTH2_KEY']
 SOCIAL_AUTH_VK_OAUTH2_SECRET = VK['SOCIAL_AUTH_VK_OAUTH2_SECRET']
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
